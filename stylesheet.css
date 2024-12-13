@@ -1,0 +1,288 @@
+:root{
+    --beige: rgb(255, 214, 161);
+    --brown: rgb(117, 63, 0);
+    --pink: rgb(255, 200, 245);
+    --orange: rgb(255, 81, 0);
+}
+
+::selection{
+    background-color: var(--orange);
+    color: var(--beige);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: var(--beige);
+    color: var(--brown);
+    margin: 0;
+    font-family: "Gabarito", Helvetica, Arial, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+}
+
+img{
+    border-radius: 1em;
+    border: solid 0.2em var(--brown);
+}
+
+a{
+    color: var(--beige);
+    text-decoration: none;
+}
+
+h1, h2{
+    font-size: 28px;
+    font-family: "Jua", Helvetica, Arial, sans-serif;
+}
+
+h3{
+    font-size: 20px;
+    margin: 0;
+}
+
+h4{
+    font-weight: normal;
+}
+
+h5{
+    font-size: 24px;
+    font-family: "Jua", Helvetica, Arial, sans-serif;
+    color: var(--beige);
+    margin: 0;
+}
+
+h6{
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--beige);
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+
+.btn{
+    background-color: var(--orange);
+    border: none;
+    padding: 0.8em;
+    border-radius: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: var(--pink);
+}
+
+header{
+    background-color: var(--brown);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    height: 3em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+footer ul{
+    background-color: var(--brown);
+    padding: 1em;
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li a{
+    margin-top: 0.5em;
+    font-weight: 100;
+}
+
+footer ul li img{
+    width: 8em;
+}
+
+.illu{
+    overflow-y: auto;
+}
+
+.margin{
+    margin: 1em;
+}
+
+.logo{
+    width: 15em;
+    border: 0;
+    border-radius: 0;
+}
+
+.banner{
+    width: 21.1em;
+}
+
+.hoe{
+    display: flex;
+}
+
+.hoe p{
+    margin: 0;
+}
+
+.hoe img{
+    border: none;
+    max-width: 10em;
+}
+
+.shop{
+    background-color: var(--pink);
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.shop .btn, #formulier .btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.slide{
+    display: flex;
+    overflow-x: auto;
+    gap: 1em;
+}
+
+.card1{
+    background-color: var(--brown);
+    margin-bottom: 1em;
+    border-radius: 1em;
+    padding-bottom: 0.5em;
+}
+
+.card1 img{
+    width: 15em;
+}
+
+.card1 h3, .card1 h4{
+    color: var(--beige);
+    margin-top: 0;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+.dirk{
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.dirk p{
+    margin-right: 0.5em;
+}
+
+.dirk img{
+    width: 6em;
+    margin-top: 2em;
+}
+
+.shoppage{
+    margin: 1em;
+}
+
+.heading{
+    display: grid;
+    grid-template-columns: 15fr 1.5fr 4fr;
+}
+
+.heading h1{
+    margin-top: 0;
+}
+
+.heading img{
+    width: 1em;
+    height: auto;
+    border: none;
+    border-radius: 0;
+}
+
+.heading h6{
+    color: var(--brown);
+    font-size: 18px;
+}
+
+.shopgrid{
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card2{
+    background-color: var(--brown);
+    margin-bottom: 1em;
+    border-radius: 1em;
+    padding-bottom: 0.5em;
+    height: 17em;
+    position: relative;
+}
+
+.card2 img{
+    max-width: 10em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card2 h3, .card2 h4{
+    color: var(--beige);
+    margin-top: 0;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.add{
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    width: calc(100% - 1em);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add h4 {
+    margin: 0;
+}
+
+.add button {
+    margin: 0;
+    border-bottom-right-radius: 0.8em;
+}
+
+#formulier{
+    margin-bottom: 1.5em;
+}
+
+.label{
+    margin-left: 0.5em;
+    font-size: large;
+}
+
+#naam, #mail, #ow, #bericht{
+    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+    border: 0.1em solid var(--brown);
+    border-radius: 1em;
+    height: 3em;
+    width: 80%;
+}
+
+#bericht{
+    width: 98%;
+    height: 16em;
+}
