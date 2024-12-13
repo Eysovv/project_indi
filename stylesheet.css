@@ -74,6 +74,8 @@ h6{
     border-radius: 0.5em;
     color: white;
     text-decoration: none;
+    font-family: "Gabarito", Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 
 .btn:hover{
@@ -90,6 +92,23 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    background-color: var(--pink);
+    padding: 0.5em;
+}
+
+.menu .btn{
+    width: 5em;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
 }
 
 footer ul{
@@ -234,8 +253,6 @@ footer ul li img{
 
 .card2 img{
     max-width: 10em;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
 }
 
 .card2 h3, .card2 h4{
@@ -262,6 +279,7 @@ footer ul li img{
 .add button {
     margin: 0;
     border-bottom-right-radius: 0.8em;
+    font-size: 12px;
 }
 
 #formulier{
